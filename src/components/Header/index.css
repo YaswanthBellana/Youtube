@@ -1,0 +1,64 @@
+.to-be-white {
+  color: black;
+  border: 2px #ffffff;
+  margin-right: 40px;
+}
+.to-be-blue {
+  color: blue;
+  border-width: 2px;
+  border-color: blue;
+  margin-right: 40px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  width: 100vw;
+}
+.header-container-white {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 100vw;
+}
+
+.dl-sun-icon {
+  color: #ffffff;
+  height: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.dl-moon-icon {
+  color: black;
+  height: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 875px) {
+  .dl-moon-icon {
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  .dl-sun-icon {
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+
+  .to-be-white {
+    height: 15px;
+    width: 70px;
+    font-size: 10px;
+  }
+  .to-be-white {
+    height: 15px;
+    width: 70px;
+    font-size: 10px;
+  }
+}
