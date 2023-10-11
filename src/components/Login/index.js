@@ -97,7 +97,7 @@ class Login extends Component {
               <LabelEl>USERNAME</LabelEl>
               <InputEl
                 type="text"
-                placeholder="Username"
+                placeholder="USERNAME"
                 value={username}
                 onChange={this.onChangeUsername}
               />
@@ -106,7 +106,7 @@ class Login extends Component {
               <LabelEl>PASSWORD</LabelEl>
               <InputEl
                 type={visibility ? 'text' : 'password'}
-                placeholder="Password"
+                placeholder="PASSWORD"
                 value={password}
                 onChange={this.onChangePassword}
               />
